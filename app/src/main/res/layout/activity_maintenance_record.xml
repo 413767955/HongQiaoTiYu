@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.activity.my.MaintenanceRecordActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.tianjin.beichentiyu.widget.CustomToolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar_style"
+            app:title="维修统计" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_authority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:padding="16dp"
+            tools:text="权限"
+            style="@style/size_161616_16"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/color_f5f5f5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_left">
+
+                <TextView
+                    style="@style/size_161616_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="区域选择" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    style="@style/size_161616_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="@dimen/padding_right"
+                    android:background="@drawable/bg_drawer_check_radius"
+                    android:gravity="center_vertical"
+                    android:hint="请选择搜索区域"
+                    android:paddingLeft="10dp"
+                    android:textColorHint="@color/color_161616" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/color_f5f5f5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_left">
+
+                <TextView
+                    style="@style/size_161616_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="日期选择" />
+
+                <TextView
+                    android:id="@+id/tv_start_time"
+                    style="@style/size_161616_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="@dimen/padding_right"
+                    android:background="@drawable/bg_drawer_check_radius"
+                    android:gravity="center_vertical"
+                    android:hint="请选择搜索年份"
+                    android:paddingLeft="10dp"
+                    android:textColorHint="@color/color_161616" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_inquire"
+                style="@style/size_ffffff_19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/gradual_change_3eb3ff_436eff"
+                android:text="查询" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color_f2f2f2" />
+
+            <TextView
+                style="@style/size_161616_18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="维修任务统计" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="@dimen/padding_left"
+                android:layout_marginRight="@dimen/padding_right"
+                android:background="@color/color_f2f2f2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/size_161616_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="任务总数：" />
+
+                <TextView
+                    android:id="@+id/tv_total"
+                    style="@style/size_161616_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="--" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/size_161616_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="已完成总数：" />
+
+                <TextView
+                    android:id="@+id/tv_complete_total"
+                    style="@style/size_161616_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="--" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/size_161616_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="未完成总数：" />
+
+                <TextView
+                    android:id="@+id/tv_undone_total"
+                    style="@style/size_161616_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="--" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <include
+        android:id="@+id/rel_filter"
+        layout="@layout/layout_filter_region"
+        android:layout_below="@+id/appbar"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:visibility="gone"/>
+</RelativeLayout>

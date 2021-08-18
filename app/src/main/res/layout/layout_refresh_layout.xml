@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.donkingliang.refresh.RefreshLayout
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--RefreshLayout嵌套的第一个View是内容布局。必须 -->
+    <androidx.recyclerview.widget.RecyclerView
+        style="@style/recyclerview_style"
+        android:id="@+id/rv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+
+    <!-- RefreshLayout嵌套的第二个View表示空布局。可选 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_tips"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textSize="18sp"
+            android:textColor="#606060"
+            android:text="暂无数据" />
+    </RelativeLayout>
+</com.donkingliang.refresh.RefreshLayout>

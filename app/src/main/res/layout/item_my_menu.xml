@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingRight="@dimen/padding_right">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_toRightOf="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:includeFontPadding="false"
+        android:text="我的钱包"
+        style="@style/size_161616_16"
+        android:layout_marginLeft="6dp"/>
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_toLeftOf="@+id/iv_arrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:includeFontPadding="false"
+        android:layout_marginRight="3dp"
+        style="@style/size_777777_13" />
+    <ImageView
+        android:id="@+id/iv_arrows"
+        style="@style/style_iv_right_arrows"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_f5f5f5"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

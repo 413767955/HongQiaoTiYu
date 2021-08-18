@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#398DEE</color>
+
+    <color name="color_menu">#A0A0A0</color>
+    <color name="color_menu_selected">#161616</color>
+
+    <color name="color_tab">#777777</color>
+    <color name="color_tab_selected">#161616</color>
+    <color name="color_tab_indicator">#161616</color>
+
+    <color name="color_general_line">#d9d9d9</color>
+    <color name="color_bg">#ffffff</color>
+    <color name="color_account_bg">#F7F8FA</color>
+    <color name="color_title_color">#161616</color>
+    <color name="color_398DEE">#398DEE</color>
+    <color name="color_5875ED">#5875ED</color>
+    <color name="color_4F84EC">#4F84EC</color>
+    <color name="color_f5f5f5">#F5F5F5</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_161616">#161616</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_3EB3FF">#3EB3FF</color>
+    <color name="color_436EFF">#436EFF</color>
+    <color name="color_FFB974">#FFB974</color>
+    <color name="color_FF4466">#FF4466</color>
+    <color name="color_60ffffff">#60ffffff</color>
+    <color name="color_595959">#595959</color>
+    <color name="color_a0a0a0">#a0a0a0</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_4176FC">#4176FC</color>
+    <color name="color_F7F8FA">#F7F8FA</color>
+    <color name="color_83A7CF">#83A7CF</color>
+    <color name="color_E3E6E9">#E3E6E9</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_1aa3ff">#1aa3ff</color>
+    <color name="color_FF6464">#FF6464</color>
+    <color name="color_6977FF">#6977FF</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+</resources>

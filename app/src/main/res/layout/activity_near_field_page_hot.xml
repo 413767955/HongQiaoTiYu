@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/color_bg"
+    tools:context=".ui.activity.NearFieldPageHotActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.tianjin.beichentiyu.widget.CustomToolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbar_style"
+            app:title="热门推荐" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/layout_refresh_layout"/>
+</LinearLayout>

@@ -1,0 +1,1586 @@
+[
+    {
+        "areaId": "1",
+        "areaName": "北京市",
+        "cities": [
+            {
+                "areaId": "1",
+                "areaName": "北京市"
+            }
+        ]
+    },
+    {
+        "areaId": "2",
+        "areaName": "天津市",
+        "cities": [
+            {
+                "areaId": "2",
+                "areaName": "天津市"
+            }
+        ]
+    },
+    {
+        "areaId": "3",
+        "areaName": "河北省",
+        "cities": [
+            {
+                "areaId": "3",
+                "areaName": "石家庄市"
+            },
+            {
+                "areaId": "4",
+                "areaName": "唐山市"
+            },
+            {
+                "areaId": "5",
+                "areaName": "秦皇岛市"
+            },
+            {
+                "areaId": "6",
+                "areaName": "邯郸市"
+            },
+            {
+                "areaId": "7",
+                "areaName": "邢台市"
+            },
+            {
+                "areaId": "8",
+                "areaName": "保定市"
+            },
+            {
+                "areaId": "9",
+                "areaName": "张家口市"
+            },
+            {
+                "areaId": "10",
+                "areaName": "承德市"
+            },
+            {
+                "areaId": "11",
+                "areaName": "沧州市"
+            },
+            {
+                "areaId": "12",
+                "areaName": "廊坊市"
+            },
+            {
+                "areaId": "13",
+                "areaName": "衡水市"
+            }
+        ]
+    },
+    {
+        "areaId": "4",
+        "areaName": "山西省",
+        "cities": [
+            {
+                "areaId": "14",
+                "areaName": "太原市"
+            },
+            {
+                "areaId": "15",
+                "areaName": "大同市"
+            },
+            {
+                "areaId": "16",
+                "areaName": "阳泉市"
+            },
+            {
+                "areaId": "17",
+                "areaName": "长治市"
+            },
+            {
+                "areaId": "18",
+                "areaName": "晋城市"
+            },
+            {
+                "areaId": "19",
+                "areaName": "朔州市"
+            },
+            {
+                "areaId": "20",
+                "areaName": "晋中市"
+            },
+            {
+                "areaId": "21",
+                "areaName": "运城市"
+            },
+            {
+                "areaId": "22",
+                "areaName": "忻州市"
+            },
+            {
+                "areaId": "23",
+                "areaName": "临汾市"
+            },
+            {
+                "areaId": "24",
+                "areaName": "吕梁市"
+            }
+        ]
+    },
+    {
+        "areaId": "5",
+        "areaName": "内蒙古自治区",
+        "cities": [
+            {
+                "areaId": "25",
+                "areaName": "呼和浩特市"
+            },
+            {
+                "areaId": "26",
+                "areaName": "包头市"
+            },
+            {
+                "areaId": "27",
+                "areaName": "乌海市"
+            },
+            {
+                "areaId": "28",
+                "areaName": "赤峰市"
+            },
+            {
+                "areaId": "29",
+                "areaName": "通辽市"
+            },
+            {
+                "areaId": "30",
+                "areaName": "鄂尔多斯市"
+            },
+            {
+                "areaId": "31",
+                "areaName": "呼伦贝尔市"
+            },
+            {
+                "areaId": "32",
+                "areaName": "巴彦淖尔市"
+            },
+            {
+                "areaId": "33",
+                "areaName": "乌兰察布市"
+            },
+            {
+                "areaId": "34",
+                "areaName": "兴安盟"
+            },
+            {
+                "areaId": "35",
+                "areaName": "锡林郭勒盟"
+            },
+            {
+                "areaId": "36",
+                "areaName": "阿拉善盟"
+            }
+        ]
+    },
+    {
+        "areaId": "6",
+        "areaName": "辽宁省",
+        "cities": [
+            {
+                "areaId": "37",
+                "areaName": "沈阳市"
+            },
+            {
+                "areaId": "38",
+                "areaName": "大连市"
+            },
+            {
+                "areaId": "39",
+                "areaName": "鞍山市"
+            },
+            {
+                "areaId": "40",
+                "areaName": "抚顺市"
+            },
+            {
+                "areaId": "41",
+                "areaName": "本溪市"
+            },
+            {
+                "areaId": "42",
+                "areaName": "丹东市"
+            },
+            {
+                "areaId": "43",
+                "areaName": "锦州市"
+            },
+            {
+                "areaId": "44",
+                "areaName": "营口市"
+            },
+            {
+                "areaId": "45",
+                "areaName": "阜新市"
+            },
+            {
+                "areaId": "46",
+                "areaName": "辽阳市"
+            },
+            {
+                "areaId": "47",
+                "areaName": "盘锦市"
+            },
+            {
+                "areaId": "48",
+                "areaName": "铁岭市"
+            },
+            {
+                "areaId": "49",
+                "areaName": "朝阳市"
+            },
+            {
+                "areaId": "50",
+                "areaName": "葫芦岛市"
+            }
+        ]
+    },
+    {
+        "areaId": "7",
+        "areaName": "吉林省",
+        "cities": [
+            {
+                "areaId": "51",
+                "areaName": "长春市"
+            },
+            {
+                "areaId": "52",
+                "areaName": "吉林市"
+            },
+            {
+                "areaId": "53",
+                "areaName": "四平市"
+            },
+            {
+                "areaId": "54",
+                "areaName": "辽源市"
+            },
+            {
+                "areaId": "55",
+                "areaName": "通化市"
+            },
+            {
+                "areaId": "56",
+                "areaName": "白山市"
+            },
+            {
+                "areaId": "57",
+                "areaName": "松原市"
+            },
+            {
+                "areaId": "58",
+                "areaName": "白城市"
+            },
+            {
+                "areaId": "59",
+                "areaName": "延边朝鲜族自治州"
+            }
+        ]
+    },
+    {
+        "areaId": "8",
+        "areaName": "黑龙江省",
+        "cities": [
+            {
+                "areaId": "60",
+                "areaName": "哈尔滨市"
+            },
+            {
+                "areaId": "61",
+                "areaName": "齐齐哈尔市"
+            },
+            {
+                "areaId": "62",
+                "areaName": "鸡西市"
+            },
+            {
+                "areaId": "63",
+                "areaName": "鹤岗市"
+            },
+            {
+                "areaId": "64",
+                "areaName": "双鸭山市"
+            },
+            {
+                "areaId": "65",
+                "areaName": "大庆市"
+            },
+            {
+                "areaId": "66",
+                "areaName": "伊春市"
+            },
+            {
+                "areaId": "67",
+                "areaName": "佳木斯市"
+            },
+            {
+                "areaId": "68",
+                "areaName": "七台河市"
+            },
+            {
+                "areaId": "69",
+                "areaName": "牡丹江市"
+            },
+            {
+                "areaId": "70",
+                "areaName": "黑河市"
+            },
+            {
+                "areaId": "71",
+                "areaName": "绥化市"
+            },
+            {
+                "areaId": "72",
+                "areaName": "大兴安岭地区"
+            }
+        ]
+    },
+    {
+        "areaId": "9",
+        "areaName": "上海市",
+        "cities": [
+            {
+                "areaId": "73",
+                "areaName": "上海市"
+            }
+        ]
+    },
+    {
+        "areaId": "10",
+        "areaName": "江苏省",
+        "cities": [
+            {
+                "areaId": "74",
+                "areaName": "南京市"
+            },
+            {
+                "areaId": "75",
+                "areaName": "无锡市"
+            },
+            {
+                "areaId": "76",
+                "areaName": "徐州市"
+            },
+            {
+                "areaId": "77",
+                "areaName": "常州市"
+            },
+            {
+                "areaId": "78",
+                "areaName": "苏州市"
+            },
+            {
+                "areaId": "79",
+                "areaName": "南通市"
+            },
+            {
+                "areaId": "80",
+                "areaName": "连云港市"
+            },
+            {
+                "areaId": "81",
+                "areaName": "淮安市"
+            },
+            {
+                "areaId": "82",
+                "areaName": "盐城市"
+            },
+            {
+                "areaId": "83",
+                "areaName": "扬州市"
+            },
+            {
+                "areaId": "84",
+                "areaName": "镇江市"
+            },
+            {
+                "areaId": "85",
+                "areaName": "泰州市"
+            },
+            {
+                "areaId": "86",
+                "areaName": "宿迁市"
+            }
+        ]
+    },
+    {
+        "areaId": "11",
+        "areaName": "浙江省",
+        "cities": [
+            {
+                "areaId": "87",
+                "areaName": "杭州市"
+            },
+            {
+                "areaId": "88",
+                "areaName": "宁波市"
+            },
+            {
+                "areaId": "89",
+                "areaName": "温州市"
+            },
+            {
+                "areaId": "90",
+                "areaName": "嘉兴市"
+            },
+            {
+                "areaId": "91",
+                "areaName": "湖州市"
+            },
+            {
+                "areaId": "92",
+                "areaName": "绍兴市"
+            },
+            {
+                "areaId": "93",
+                "areaName": "金华市"
+            },
+            {
+                "areaId": "94",
+                "areaName": "衢州市"
+            },
+            {
+                "areaId": "95",
+                "areaName": "舟山市"
+            },
+            {
+                "areaId": "96",
+                "areaName": "台州市"
+            },
+            {
+                "areaId": "97",
+                "areaName": "丽水市"
+            }
+        ]
+    },
+    {
+        "areaId": "12",
+        "areaName": "安徽省",
+        "cities": [
+            {
+                "areaId": "98",
+                "areaName": "合肥市"
+            },
+            {
+                "areaId": "99",
+                "areaName": "芜湖市"
+            },
+            {
+                "areaId": "100",
+                "areaName": "蚌埠市"
+            },
+            {
+                "areaId": "101",
+                "areaName": "淮南市"
+            },
+            {
+                "areaId": "102",
+                "areaName": "马鞍山市"
+            },
+            {
+                "areaId": "103",
+                "areaName": "淮北市"
+            },
+            {
+                "areaId": "104",
+                "areaName": "铜陵市"
+            },
+            {
+                "areaId": "105",
+                "areaName": "安庆市"
+            },
+            {
+                "areaId": "106",
+                "areaName": "黄山市"
+            },
+            {
+                "areaId": "107",
+                "areaName": "滁州市"
+            },
+            {
+                "areaId": "108",
+                "areaName": "阜阳市"
+            },
+            {
+                "areaId": "109",
+                "areaName": "宿州市"
+            },
+            {
+                "areaId": "110",
+                "areaName": "巢湖市"
+            },
+            {
+                "areaId": "111",
+                "areaName": "六安市"
+            },
+            {
+                "areaId": "112",
+                "areaName": "亳州市"
+            },
+            {
+                "areaId": "113",
+                "areaName": "池州市"
+            },
+            {
+                "areaId": "114",
+                "areaName": "宣城市"
+            }
+        ]
+    },
+    {
+        "areaId": "13",
+        "areaName": "福建省",
+        "cities": [
+            {
+                "areaId": "115",
+                "areaName": "福州市"
+            },
+            {
+                "areaId": "116",
+                "areaName": "厦门市"
+            },
+            {
+                "areaId": "117",
+                "areaName": "莆田市"
+            },
+            {
+                "areaId": "118",
+                "areaName": "三明市"
+            },
+            {
+                "areaId": "119",
+                "areaName": "泉州市"
+            },
+            {
+                "areaId": "120",
+                "areaName": "漳州市"
+            },
+            {
+                "areaId": "121",
+                "areaName": "南平市"
+            },
+            {
+                "areaId": "122",
+                "areaName": "龙岩市"
+            },
+            {
+                "areaId": "123",
+                "areaName": "宁德市"
+            }
+        ]
+    },
+    {
+        "areaId": "14",
+        "areaName": "江西省",
+        "cities": [
+            {
+                "areaId": "124",
+                "areaName": "南昌市"
+            },
+            {
+                "areaId": "125",
+                "areaName": "景德镇市"
+            },
+            {
+                "areaId": "126",
+                "areaName": "萍乡市"
+            },
+            {
+                "areaId": "127",
+                "areaName": "九江市"
+            },
+            {
+                "areaId": "128",
+                "areaName": "新余市"
+            },
+            {
+                "areaId": "129",
+                "areaName": "鹰潭市"
+            },
+            {
+                "areaId": "130",
+                "areaName": "赣州市"
+            },
+            {
+                "areaId": "131",
+                "areaName": "吉安市"
+            },
+            {
+                "areaId": "132",
+                "areaName": "宜春市"
+            },
+            {
+                "areaId": "133",
+                "areaName": "抚州市"
+            },
+            {
+                "areaId": "134",
+                "areaName": "上饶市"
+            }
+        ]
+    },
+    {
+        "areaId": "15",
+        "areaName": "山东省",
+        "cities": [
+            {
+                "areaId": "135",
+                "areaName": "济南市"
+            },
+            {
+                "areaId": "136",
+                "areaName": "青岛市"
+            },
+            {
+                "areaId": "137",
+                "areaName": "淄博市"
+            },
+            {
+                "areaId": "138",
+                "areaName": "枣庄市"
+            },
+            {
+                "areaId": "139",
+                "areaName": "东营市"
+            },
+            {
+                "areaId": "140",
+                "areaName": "烟台市"
+            },
+            {
+                "areaId": "141",
+                "areaName": "潍坊市"
+            },
+            {
+                "areaId": "142",
+                "areaName": "济宁市"
+            },
+            {
+                "areaId": "143",
+                "areaName": "泰安市"
+            },
+            {
+                "areaId": "144",
+                "areaName": "威海市"
+            },
+            {
+                "areaId": "145",
+                "areaName": "日照市"
+            },
+            {
+                "areaId": "146",
+                "areaName": "莱芜市"
+            },
+            {
+                "areaId": "147",
+                "areaName": "临沂市"
+            },
+            {
+                "areaId": "148",
+                "areaName": "德州市"
+            },
+            {
+                "areaId": "149",
+                "areaName": "聊城市"
+            },
+            {
+                "areaId": "150",
+                "areaName": "滨州市"
+            },
+            {
+                "areaId": "151",
+                "areaName": "荷泽市"
+            }
+        ]
+    },
+    {
+        "areaId": "16",
+        "areaName": "河南省",
+        "cities": [
+            {
+                "areaId": "152",
+                "areaName": "郑州市"
+            },
+            {
+                "areaId": "153",
+                "areaName": "开封市"
+            },
+            {
+                "areaId": "154",
+                "areaName": "洛阳市"
+            },
+            {
+                "areaId": "155",
+                "areaName": "平顶山市"
+            },
+            {
+                "areaId": "156",
+                "areaName": "安阳市"
+            },
+            {
+                "areaId": "157",
+                "areaName": "鹤壁市"
+            },
+            {
+                "areaId": "158",
+                "areaName": "新乡市"
+            },
+            {
+                "areaId": "159",
+                "areaName": "焦作市"
+            },
+            {
+                "areaId": "160",
+                "areaName": "濮阳市"
+            },
+            {
+                "areaId": "161",
+                "areaName": "许昌市"
+            },
+            {
+                "areaId": "162",
+                "areaName": "漯河市"
+            },
+            {
+                "areaId": "163",
+                "areaName": "三门峡市"
+            },
+            {
+                "areaId": "164",
+                "areaName": "南阳市"
+            },
+            {
+                "areaId": "165",
+                "areaName": "商丘市"
+            },
+            {
+                "areaId": "166",
+                "areaName": "信阳市"
+            },
+            {
+                "areaId": "167",
+                "areaName": "周口市"
+            },
+            {
+                "areaId": "168",
+                "areaName": "驻马店市"
+            }
+        ]
+    },
+    {
+        "areaId": "17",
+        "areaName": "湖北省",
+        "cities": [
+            {
+                "areaId": "169",
+                "areaName": "武汉市"
+            },
+            {
+                "areaId": "170",
+                "areaName": "黄石市"
+            },
+            {
+                "areaId": "171",
+                "areaName": "十堰市"
+            },
+            {
+                "areaId": "172",
+                "areaName": "宜昌市"
+            },
+            {
+                "areaId": "173",
+                "areaName": "襄樊市"
+            },
+            {
+                "areaId": "174",
+                "areaName": "鄂州市"
+            },
+            {
+                "areaId": "175",
+                "areaName": "荆门市"
+            },
+            {
+                "areaId": "176",
+                "areaName": "孝感市"
+            },
+            {
+                "areaId": "177",
+                "areaName": "荆州市"
+            },
+            {
+                "areaId": "178",
+                "areaName": "黄冈市"
+            },
+            {
+                "areaId": "179",
+                "areaName": "咸宁市"
+            },
+            {
+                "areaId": "180",
+                "areaName": "随州市"
+            },
+            {
+                "areaId": "181",
+                "areaName": "恩施土家族苗族自治州"
+            },
+            {
+                "areaId": "182",
+                "areaName": "神农架"
+            }
+        ]
+    },
+    {
+        "areaId": "18",
+        "areaName": "湖南省",
+        "cities": [
+            {
+                "areaId": "183",
+                "areaName": "长沙市"
+            },
+            {
+                "areaId": "184",
+                "areaName": "株洲市"
+            },
+            {
+                "areaId": "185",
+                "areaName": "湘潭市"
+            },
+            {
+                "areaId": "186",
+                "areaName": "衡阳市"
+            },
+            {
+                "areaId": "187",
+                "areaName": "邵阳市"
+            },
+            {
+                "areaId": "188",
+                "areaName": "岳阳市"
+            },
+            {
+                "areaId": "189",
+                "areaName": "常德市"
+            },
+            {
+                "areaId": "190",
+                "areaName": "张家界市"
+            },
+            {
+                "areaId": "191",
+                "areaName": "益阳市"
+            },
+            {
+                "areaId": "192",
+                "areaName": "郴州市"
+            },
+            {
+                "areaId": "193",
+                "areaName": "永州市"
+            },
+            {
+                "areaId": "194",
+                "areaName": "怀化市"
+            },
+            {
+                "areaId": "195",
+                "areaName": "娄底市"
+            },
+            {
+                "areaId": "196",
+                "areaName": "湘西土家族苗族自治州"
+            }
+        ]
+    },
+    {
+        "areaId": "19",
+        "areaName": "广东省",
+        "cities": [
+            {
+                "areaId": "197",
+                "areaName": "广州市"
+            },
+            {
+                "areaId": "198",
+                "areaName": "韶关市"
+            },
+            {
+                "areaId": "199",
+                "areaName": "深圳市"
+            },
+            {
+                "areaId": "200",
+                "areaName": "珠海市"
+            },
+            {
+                "areaId": "201",
+                "areaName": "汕头市"
+            },
+            {
+                "areaId": "202",
+                "areaName": "佛山市"
+            },
+            {
+                "areaId": "203",
+                "areaName": "江门市"
+            },
+            {
+                "areaId": "204",
+                "areaName": "湛江市"
+            },
+            {
+                "areaId": "205",
+                "areaName": "茂名市"
+            },
+            {
+                "areaId": "206",
+                "areaName": "肇庆市"
+            },
+            {
+                "areaId": "207",
+                "areaName": "惠州市"
+            },
+            {
+                "areaId": "208",
+                "areaName": "梅州市"
+            },
+            {
+                "areaId": "209",
+                "areaName": "汕尾市"
+            },
+            {
+                "areaId": "210",
+                "areaName": "河源市"
+            },
+            {
+                "areaId": "211",
+                "areaName": "阳江市"
+            },
+            {
+                "areaId": "212",
+                "areaName": "清远市"
+            },
+            {
+                "areaId": "213",
+                "areaName": "东莞市"
+            },
+            {
+                "areaId": "214",
+                "areaName": "中山市"
+            },
+            {
+                "areaId": "215",
+                "areaName": "潮州市"
+            },
+            {
+                "areaId": "216",
+                "areaName": "揭阳市"
+            },
+            {
+                "areaId": "217",
+                "areaName": "云浮市"
+            }
+        ]
+    },
+    {
+        "areaId": "20",
+        "areaName": "广西壮族自治区",
+        "cities": [
+            {
+                "areaId": "218",
+                "areaName": "南宁市"
+            },
+            {
+                "areaId": "219",
+                "areaName": "柳州市"
+            },
+            {
+                "areaId": "220",
+                "areaName": "桂林市"
+            },
+            {
+                "areaId": "221",
+                "areaName": "梧州市"
+            },
+            {
+                "areaId": "222",
+                "areaName": "北海市"
+            },
+            {
+                "areaId": "223",
+                "areaName": "防城港市"
+            },
+            {
+                "areaId": "224",
+                "areaName": "钦州市"
+            },
+            {
+                "areaId": "225",
+                "areaName": "贵港市"
+            },
+            {
+                "areaId": "226",
+                "areaName": "玉林市"
+            },
+            {
+                "areaId": "227",
+                "areaName": "百色市"
+            },
+            {
+                "areaId": "228",
+                "areaName": "贺州市"
+            },
+            {
+                "areaId": "229",
+                "areaName": "河池市"
+            },
+            {
+                "areaId": "230",
+                "areaName": "来宾市"
+            },
+            {
+                "areaId": "231",
+                "areaName": "崇左市"
+            }
+        ]
+    },
+    {
+        "areaId": "21",
+        "areaName": "海南省",
+        "cities": [
+            {
+                "areaId": "232",
+                "areaName": "海口市"
+            },
+            {
+                "areaId": "233",
+                "areaName": "三亚市"
+            }
+        ]
+    },
+    {
+        "areaId": "22",
+        "areaName": "重庆市",
+        "cities": [
+            {
+                "areaId": "234",
+                "areaName": "重庆市"
+            }
+        ]
+    },
+    {
+        "areaId": "23",
+        "areaName": "四川省",
+        "cities": [
+            {
+                "areaId": "235",
+                "areaName": "成都市"
+            },
+            {
+                "areaId": "236",
+                "areaName": "自贡市"
+            },
+            {
+                "areaId": "237",
+                "areaName": "攀枝花市"
+            },
+            {
+                "areaId": "238",
+                "areaName": "泸州市"
+            },
+            {
+                "areaId": "239",
+                "areaName": "德阳市"
+            },
+            {
+                "areaId": "240",
+                "areaName": "绵阳市"
+            },
+            {
+                "areaId": "241",
+                "areaName": "广元市"
+            },
+            {
+                "areaId": "242",
+                "areaName": "遂宁市"
+            },
+            {
+                "areaId": "243",
+                "areaName": "内江市"
+            },
+            {
+                "areaId": "244",
+                "areaName": "乐山市"
+            },
+            {
+                "areaId": "245",
+                "areaName": "南充市"
+            },
+            {
+                "areaId": "246",
+                "areaName": "眉山市"
+            },
+            {
+                "areaId": "247",
+                "areaName": "宜宾市"
+            },
+            {
+                "areaId": "248",
+                "areaName": "广安市"
+            },
+            {
+                "areaId": "249",
+                "areaName": "达州市"
+            },
+            {
+                "areaId": "250",
+                "areaName": "雅安市"
+            },
+            {
+                "areaId": "251",
+                "areaName": "巴中市"
+            },
+            {
+                "areaId": "252",
+                "areaName": "资阳市"
+            },
+            {
+                "areaId": "253",
+                "areaName": "阿坝藏族羌族自治州"
+            },
+            {
+                "areaId": "254",
+                "areaName": "甘孜藏族自治州"
+            },
+            {
+                "areaId": "255",
+                "areaName": "凉山彝族自治州"
+            }
+        ]
+    },
+    {
+        "areaId": "24",
+        "areaName": "贵州省",
+        "cities": [
+            {
+                "areaId": "256",
+                "areaName": "贵阳市"
+            },
+            {
+                "areaId": "257",
+                "areaName": "六盘水市"
+            },
+            {
+                "areaId": "258",
+                "areaName": "遵义市"
+            },
+            {
+                "areaId": "259",
+                "areaName": "安顺市"
+            },
+            {
+                "areaId": "260",
+                "areaName": "铜仁地区"
+            },
+            {
+                "areaId": "261",
+                "areaName": "黔西南布依族苗族自治州"
+            },
+            {
+                "areaId": "262",
+                "areaName": "毕节地区"
+            },
+            {
+                "areaId": "263",
+                "areaName": "黔东南苗族侗族自治州"
+            },
+            {
+                "areaId": "264",
+                "areaName": "黔南布依族苗族自治州"
+            }
+        ]
+    },
+    {
+        "areaId": "25",
+        "areaName": "云南省",
+        "cities": [
+            {
+                "areaId": "265",
+                "areaName": "昆明市"
+            },
+            {
+                "areaId": "266",
+                "areaName": "曲靖市"
+            },
+            {
+                "areaId": "267",
+                "areaName": "玉溪市"
+            },
+            {
+                "areaId": "268",
+                "areaName": "保山市"
+            },
+            {
+                "areaId": "269",
+                "areaName": "昭通市"
+            },
+            {
+                "areaId": "270",
+                "areaName": "丽江市"
+            },
+            {
+                "areaId": "271",
+                "areaName": "思茅市"
+            },
+            {
+                "areaId": "272",
+                "areaName": "临沧市"
+            },
+            {
+                "areaId": "273",
+                "areaName": "楚雄彝族自治州"
+            },
+            {
+                "areaId": "274",
+                "areaName": "红河哈尼族彝族自治州"
+            },
+            {
+                "areaId": "275",
+                "areaName": "文山壮族苗族自治州"
+            },
+            {
+                "areaId": "276",
+                "areaName": "西双版纳傣族自治州"
+            },
+            {
+                "areaId": "277",
+                "areaName": "大理白族自治州"
+            },
+            {
+                "areaId": "278",
+                "areaName": "德宏傣族景颇族自治州"
+            },
+            {
+                "areaId": "279",
+                "areaName": "怒江傈僳族自治州"
+            },
+            {
+                "areaId": "280",
+                "areaName": "迪庆藏族自治州"
+            }
+        ]
+    },
+    {
+        "areaId": "26",
+        "areaName": "西藏自治区",
+        "cities": [
+            {
+                "areaId": "281",
+                "areaName": "拉萨市"
+            },
+            {
+                "areaId": "282",
+                "areaName": "昌都地区"
+            },
+            {
+                "areaId": "283",
+                "areaName": "山南地区"
+            },
+            {
+                "areaId": "284",
+                "areaName": "日喀则地区"
+            },
+            {
+                "areaId": "285",
+                "areaName": "那曲地区"
+            },
+            {
+                "areaId": "286",
+                "areaName": "阿里地区"
+            },
+            {
+                "areaId": "287",
+                "areaName": "林芝地区"
+            }
+        ]
+    },
+    {
+        "areaId": "27",
+        "areaName": "陕西省",
+        "cities": [
+            {
+                "areaId": "288",
+                "areaName": "西安市"
+            },
+            {
+                "areaId": "289",
+                "areaName": "铜川市"
+            },
+            {
+                "areaId": "290",
+                "areaName": "宝鸡市"
+            },
+            {
+                "areaId": "291",
+                "areaName": "咸阳市"
+            },
+            {
+                "areaId": "292",
+                "areaName": "渭南市"
+            },
+            {
+                "areaId": "293",
+                "areaName": "延安市"
+            },
+            {
+                "areaId": "294",
+                "areaName": "汉中市"
+            },
+            {
+                "areaId": "295",
+                "areaName": "榆林市"
+            },
+            {
+                "areaId": "296",
+                "areaName": "安康市"
+            },
+            {
+                "areaId": "297",
+                "areaName": "商洛市"
+            }
+        ]
+    },
+    {
+        "areaId": "28",
+        "areaName": "甘肃省",
+        "cities": [
+            {
+                "areaId": "298",
+                "areaName": "兰州市"
+            },
+            {
+                "areaId": "299",
+                "areaName": "嘉峪关市"
+            },
+            {
+                "areaId": "300",
+                "areaName": "金昌市"
+            },
+            {
+                "areaId": "301",
+                "areaName": "白银市"
+            },
+            {
+                "areaId": "302",
+                "areaName": "天水市"
+            },
+            {
+                "areaId": "303",
+                "areaName": "武威市"
+            },
+            {
+                "areaId": "304",
+                "areaName": "张掖市"
+            },
+            {
+                "areaId": "305",
+                "areaName": "平凉市"
+            },
+            {
+                "areaId": "306",
+                "areaName": "酒泉市"
+            },
+            {
+                "areaId": "307",
+                "areaName": "庆阳市"
+            },
+            {
+                "areaId": "308",
+                "areaName": "定西市"
+            },
+            {
+                "areaId": "309",
+                "areaName": "陇南市"
+            },
+            {
+                "areaId": "310",
+                "areaName": "临夏回族自治州"
+            },
+            {
+                "areaId": "311",
+                "areaName": "甘南藏族自治州"
+            }
+        ]
+    },
+    {
+        "areaId": "29",
+        "areaName": "青海省",
+        "cities": [
+            {
+                "areaId": "312",
+                "areaName": "西宁市"
+            },
+            {
+                "areaId": "313",
+                "areaName": "海东地区"
+            },
+            {
+                "areaId": "314",
+                "areaName": "海北藏族自治州"
+            },
+            {
+                "areaId": "315",
+                "areaName": "黄南藏族自治州"
+            },
+            {
+                "areaId": "316",
+                "areaName": "海南藏族自治州"
+            },
+            {
+                "areaId": "317",
+                "areaName": "果洛藏族自治州"
+            },
+            {
+                "areaId": "318",
+                "areaName": "玉树藏族自治州"
+            },
+            {
+                "areaId": "319",
+                "areaName": "海西蒙古族藏族自治州"
+            }
+        ]
+    },
+    {
+        "areaId": "30",
+        "areaName": "宁夏回族自治区",
+        "cities": [
+            {
+                "areaId": "320",
+                "areaName": "银川市"
+            },
+            {
+                "areaId": "321",
+                "areaName": "石嘴山市"
+            },
+            {
+                "areaId": "322",
+                "areaName": "吴忠市"
+            },
+            {
+                "areaId": "323",
+                "areaName": "固原市"
+            },
+            {
+                "areaId": "324",
+                "areaName": "中卫市"
+            }
+        ]
+    },
+    {
+        "areaId": "31",
+        "areaName": "新疆维吾尔自治区",
+        "cities": [
+            {
+                "areaId": "325",
+                "areaName": "乌鲁木齐市"
+            },
+            {
+                "areaId": "326",
+                "areaName": "克拉玛依市"
+            },
+            {
+                "areaId": "327",
+                "areaName": "吐鲁番地区"
+            },
+            {
+                "areaId": "328",
+                "areaName": "哈密地区"
+            },
+            {
+                "areaId": "329",
+                "areaName": "昌吉回族自治州"
+            },
+            {
+                "areaId": "330",
+                "areaName": "博尔塔拉蒙古自治州"
+            },
+            {
+                "areaId": "331",
+                "areaName": "巴音郭楞蒙古自治州"
+            },
+            {
+                "areaId": "332",
+                "areaName": "阿克苏地区"
+            },
+            {
+                "areaId": "333",
+                "areaName": "克孜勒苏柯尔克孜自治州"
+            },
+            {
+                "areaId": "334",
+                "areaName": "喀什地区"
+            },
+            {
+                "areaId": "335",
+                "areaName": "和田地区"
+            },
+            {
+                "areaId": "336",
+                "areaName": "伊犁哈萨克自治州"
+            },
+            {
+                "areaId": "337",
+                "areaName": "塔城地区"
+            },
+            {
+                "areaId": "338",
+                "areaName": "阿勒泰地区"
+            },
+            {
+                "areaId": "339",
+                "areaName": "石河子市"
+            },
+            {
+                "areaId": "340",
+                "areaName": "阿拉尔市"
+            },
+            {
+                "areaId": "341",
+                "areaName": "图木舒克市"
+            },
+            {
+                "areaId": "342",
+                "areaName": "五家渠市"
+            }
+        ]
+    },
+    {
+        "areaId": "32",
+        "areaName": "香港特别行政区",
+        "cities": [
+            {
+                "areaId": "343",
+                "areaName": "香港特别行政区"
+            }
+        ]
+    },
+    {
+        "areaId": "33",
+        "areaName": "澳门特别行政区",
+        "cities": [
+            {
+                "areaId": "344",
+                "areaName": "澳门特别行政区"
+            }
+        ]
+    },
+    {
+        "areaId": "34",
+        "areaName": "台湾省",
+        "cities": [
+            {
+                "areaId": "345",
+                "areaName": "台湾省"
+            }
+        ]
+    }
+]

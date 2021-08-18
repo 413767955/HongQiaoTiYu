@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="40dp" android:height="40dp">
+        <shape android:shape="oval">
+            <gradient android:type="linear" android:useLevel="true" android:startColor="#fffd8a3f" android:endColor="#ffffd02b" android:angle="90" />
+            <item android:name="android:shadowColor">#52fd8a3f</item>
+            <item android:name="android:shadowDx">0</item>
+            <item android:name="android:shadowDy">4</item>
+        </shape>
+    </item>
+    <item android:gravity="center" android:width="24dp" android:height="24dp" android:drawable="@drawable/icon_home_menu_zntc">
+
+    </item>
+</layer-list>

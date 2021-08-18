@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rc="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <com.android.liuzhuang.rcimageview.RoundCornerImageView
+        android:id="@+id/iv_img"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        rc:rciv_radius="5dp"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/test_venues" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@+id/iv_img"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/size_161616_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="和平区体育馆" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/size_a0a0a0_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="和平区|滨江道" />
+        <!-- 距离弃用 -->
+        <TextView
+            android:id="@+id/tv_distance"
+            style="@style/size_a0a0a0_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="10km"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

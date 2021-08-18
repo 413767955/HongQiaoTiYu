@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:rc="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/padding_left"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="@dimen/padding_right">
+
+    <com.android.liuzhuang.rcimageview.RoundCornerImageView
+        android:id="@+id/iv_img"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        rc:rciv_radius="5dp"
+        tools:src="@mipmap/test_venues" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/iv_img"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/size_161616_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/tv_reserve"
+                android:lines="2"
+                android:maxLines="2"
+                android:text="和平区体育馆" />
+
+            <TextView
+                android:id="@+id/tv_reserve"
+                style="@style/size_398DEE_13"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/hollow_frame_398dee_45"
+                android:gravity="center"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:text="预定" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/size_a0a0a0_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="和平区|滨江道" />
+
+        <TextView
+            android:id="@+id/tv_distance"
+            style="@style/size_a0a0a0_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="10km" />
+    </LinearLayout>
+
+</RelativeLayout>

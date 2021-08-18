@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="@color/color_bg"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tv_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#777777"
+        android:text="123456"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#777777"
+        android:layout_marginTop="4dp"
+        android:textSize="13sp"/>
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="44dp"
+        android:layout_height="2dp"
+        android:visibility="invisible"
+        android:layout_marginTop="3dp"
+        android:background="#398DEE"/>
+</LinearLayout>
