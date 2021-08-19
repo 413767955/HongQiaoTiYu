@@ -18,10 +18,10 @@ android {
             keyPassword "123456"
         }
         releaseConfig {
-            storeFile file("./debug.jks")
-            storePassword "123456"
-            keyAlias "liubiantiyu"
-            keyPassword "123456"
+            storeFile file("./release.jks")
+            storePassword "android"
+            keyAlias "key0"
+            keyPassword "android"
         }
     }
     buildTypes {
@@ -44,6 +44,7 @@ android {
     sourceSets {
         main {
             jniLibs.srcDir 'libs'
+            jni.srcDirs = []    //disable automatic ndk-build
         }
     }
 }
@@ -63,8 +64,6 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.0.1'
     //LogUtil
     implementation 'com.blankj:utilcode:1.16.4'
-    //刷新加载
-    //implementation 'com.github.donkingliang:RefreshLayout:1.1.2'
 
     //bind view
     api "com.jakewharton:butterknife:$butterknife_version"
@@ -98,4 +97,6 @@ dependencies {
 
     //支付宝
     compile(name: 'alipaySdk-15.7.7-20200702160044', ext: 'aar')
+
+    implementation files('libs/BaiduLBS_Android.jar')
 }

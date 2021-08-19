@@ -14,7 +14,6 @@ import io.reactivex.schedulers.Schedulers;
 public class LoginPresenter extends BasePresenterImpl<LoginContract.View> implements LoginContract.Presenter{
     @Override
     public void login(String tel, String pwd,double lat,double lng) {
-        LogUtils.e("lat="+lat,"lng="+lng);
         ApiManager.getAccountService().login(tel, pwd,lat,lng)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
